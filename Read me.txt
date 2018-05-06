@@ -1,0 +1,38 @@
+Version python 3.4.3 amd
+dependencies--
+ open cmd and run
+ python -m pip install numpy
+ python -m pip install plotly
+ 
+ 
+
+
+To open filr. right click on file and press edit with IDLE.
+to run the file file f5
+
+
+To change dataset: look for this code in classifier file...
+finalscore=[]
+#calculating Accuracy
+with open('inputtweet/tweet.csv','r',encoding='latin-1') as f:
+    i=0;
+    reader=csv.reader(f)
+    for col in reader:
+        finalscore.append(col[1]);
+replace tweet.csv with tweetset2.csv to verify with different dataset.....
+
+Main File "run.py"-Run this file
+
+clean data file contains- preprocessing data using regex
+classifier file contains - naive bayes and algorithm and plotting graphs code
+kmeans and clusters file contains-Clustering and classifier techniques
+After performing Naive Bayes Algorithm A second Validation is performed using by means of Kmeans Clustering.
+ 
+ 
+input/folder test data tweets
+
+output/folder final results
+
+Charts/folder final chart
+
+Data/folder featurelist/training dataset.
